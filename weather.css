@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    background-color: rgb(7, 40, 54);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background : linear-gradient(315deg ,#cdf6ff,#005b96);
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 10px  10px 25px black;
+    padding-top:50px ;
+    padding-bottom:50px ;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.top input{
+    width: 20vw;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #cdf6ff;
+    font-size: 20px;
+}
+
+.top i{
+    border-radius: 100%;
+    padding: 12px;
+    background-color: #cdf6ff;
+    font-size: 20px;
+    font-weight: 900;
+}
+.image{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.data{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.foot{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;  
+    justify-content: space-around; 
+}
+
+.foot img{
+    width: 40px;
+    height: 40px;
+}
+.humidity , .wind{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    gap: 10px;
+}
+
+.info{
+    display: none;
+    width: 100%;
+    text-align: center;
+
+}
+.error{
+   width: 100%;
+   margin-left:100px;
+   margin-top: 5px;
+   display: none;
+}
